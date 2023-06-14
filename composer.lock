@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1a49b5691623342f786c802514b1b2a7",
+    "packages": [
+        {
+            "name": "smottt/wideimage",
+            "version": "1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smottt/WideImage.git",
+                "reference": "c0548101aa07c0bca8a185d900b1f5844ab6716a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smottt/WideImage/zipball/c0548101aa07c0bca8a185d900b1f5844ab6716a",
+                "reference": "c0548101aa07c0bca8a185d900b1f5844ab6716a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "WideImage": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0",
+                "LGPL-2.1"
+            ],
+            "description": "An open-source PHP library for image manipulation. (With namespaces, PHP 5.3+)",
+            "homepage": "http://wideimage.sourceforge.net",
+            "support": {
+                "issues": "https://github.com/smottt/WideImage/issues",
+                "source": "https://github.com/smottt/WideImage/tree/v1"
+            },
+            "time": "2016-11-13T13:03:08+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

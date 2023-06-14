@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #efefef;
+
+}
+
+#app {
+    padding: 25px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.box {
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw/2);
+}
+
+.box-title {
+    background-color: #efefef;
+    padding: 10px 15px;
+}
+
+.box-content {
+    padding: 10px 15px;
+    background-color: #efefef;
+}
